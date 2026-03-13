@@ -1,0 +1,92 @@
+/* Styling untuk keseluruhan halaman - Tema The Sims 2 (Cerah & Nostalgik) */
+body {
+  /* Menggunakan font yang umum di era 2000an untuk kesan nostalgic */
+  font-family: "Trebuchet MS", "Lucida Grande", "Verdana", sans-serif;
+  /* Latar belakang biru langit ala layar loading The Sims 2 */
+  background: linear-gradient(135deg, #d2e4f6 0%, #a9cce3 100%);
+  background-attachment: fixed;
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Container utama - Ala Panel UI The Sims 2 */
+.card {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 25px;
+  /* Sudut membulat khas UI Sims */
+  border-radius: 15px;
+  /* Border biru gelap khas panel Sims 2 */
+  border: 3px solid #0b3e8e;
+  box-shadow:
+    0 6px 12px rgba(11, 62, 142, 0.15),
+    inset 0 0 0 2px #e0e0e0;
+}
+
+/* Header utama - Warna Hijau Plumbob! */
+h1 {
+  font-family: "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
+  color: #43b52f; /* Hijau Plumbob */
+  text-align: center;
+  /* Bayangan teks agar terlihat seperti judul di dalam game */
+  text-shadow:
+    1px 1px 0px #1a5c0d,
+    2px 2px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+/* Paragraf - Bersih dan mudah dibaca */
+p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #222222;
+}
+
+/* Garis pemisah - Biru lembut */
+hr {
+  border: none;
+  height: 2px;
+  background: #a9cce3;
+  margin: 20px 0;
+  border-radius: 2px;
+}
+
+/* Greeting - Ala tooltip atau notifikasi di game */
+small {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  color: #0b3e8e;
+  background-color: #e6f0fa;
+  padding: 8px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid #a9cce3;
+}
+
+/* Class gambar ala foto album kenangan The Sims */
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 15px auto;
+  /* Efek bingkai foto polaroid putih dengan outline biru */
+  border: 5px solid #ffffff;
+  outline: 2px solid #0b3e8e;
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.2s ease,
+    outline-color 0.2s ease;
+}
+
+/* Efek hover pada gambar - Outline berubah jadi Hijau Plumbob saat disentuh */
+.img:hover {
+  transform: scale(1.02) rotate(-1deg);
+  outline-color: #43b52f;
+  box-shadow: 4px 6px 12px rgba(67, 181, 47, 0.2);
+}
