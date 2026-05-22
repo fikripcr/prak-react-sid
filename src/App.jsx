@@ -14,7 +14,7 @@ import Loading from "./components/Loading";
 // import Register from "./pages/auth/Register";
 // import Forgot from "./pages/auth/Forgot";
 
-const Dashboard = React.lazy(() => import("./pages/dashboard"));
+const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 const Orders = React.lazy(() => import("./pages/Orders"));
 const Customers = React.lazy(() => import("./pages/Customers"));
 const NotFound = React.lazy(() => import("./pages/NotFound"));
