@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Mouse M330",
+    "code": "ELC-MS-001",
+    "category": "Electronics",
+    "brand": "Logitech",
+    "price": 250000,
+    "stock": 45
+  },
+  {
+    "id": 2,
+    "title": "Mechanical Keyboard K840",
+    "code": "ELC-KB-002",
+    "category": "Electronics",
+    "brand": "Keychron",
+    "price": 1200000,
+    "stock": 15
+  },
+  {
+    "id": 3,
+    "title": "Running Shoes UltraBoost",
+    "code": "APP-SH-003",
+    "category": "Apparel",
+    "brand": "Adidas",
+    "price": 2400000,
+    "stock": 20
+  },
+  {
+    "id": 4,
+    "title": "Casual Hoodie Black",
+    "code": "APP-HD-004",
+    "category": "Apparel",
+    "brand": "Uniqlo",
+    "price": 399000,
+    "stock": 60
+  },
+  {
+    "id": 5,
+    "title": "Smart TV 43 Inch Ultra HD",
+    "code": "TV-LG-005",
+    "category": "Home Appliances",
+    "brand": "LG",
+    "price": 4500000,
+    "stock": 8
+  },
+  {
+    "id": 6,
+    "title": "Air Fryer 4L",
+    "code": "KIT-AF-006",
+    "category": "Kitchen",
+    "brand": "Philips",
+    "price": 1100000,
+    "stock": 12
+  },
+  {
+    "id": 7,
+    "title": "Stainless Steel Tumbler 500ml",
+    "code": "KIT-TB-007",
+    "category": "Kitchen",
+    "brand": "Hydro Flask",
+    "price": 450000,
+    "stock": 35
+  },
+  {
+    "id": 8,
+    "title": "Leather Wallet Classic",
+    "code": "ACC-WL-008",
+    "category": "Accessories",
+    "brand": "Fossil",
+    "price": 850000,
+    "stock": 25
+  },
+  {
+    "id": 9,
+    "title": "Ergonomic Office Chair",
+    "code": "FUR-CR-009",
+    "category": "Furniture",
+    "brand": "Furnilux",
+    "price": 1750000,
+    "stock": 10
+  },
+  {
+    "id": 10,
+    "title": "Noise Cancelling Headphones WH-1000XM4",
+    "code": "ELC-HP-010",
+    "category": "Electronics",
+    "brand": "Sony",
+    "price": 3800000,
+    "stock": 14
+  },
+  {
+    "id": 11,
+    "title": "Chino Pants Slim Fit",
+    "code": "APP-PT-011",
+    "category": "Apparel",
+    "brand": "Zara",
+    "price": 599000,
+    "stock": 40
+  },
+  {
+    "id": 12,
+    "title": "Electric Toothbrush iO5",
+    "code": "HBH-TB-012",
+    "category": "Health & Beauty",
+    "brand": "Oral-B",
+    "price": 1350000,
+    "stock": 22
+  },
+  {
+    "id": 13,
+    "title": "Matte Lipstick Shade 05",
+    "code": "HBH-LP-013",
+    "category": "Health & Beauty",
+    "brand": "Maybelline",
+    "price": 1150000,
+    "stock": 100
+  },
+  {
+    "id": 14,
+    "title": "Waterproof Backpack 25L",
+    "code": "BAG-BP-014",
+    "category": "Accessories",
+    "brand": "Eiger",
+    "price": 650000,
+    "stock": 18
+  },
+  {
+    "id": 15,
+    "title": "Coffee Maker Espresso Pro",
+    "code": "KIT-CM-015",
+    "category": "Kitchen",
+    "brand": "DeLonghi",
+    "price": 2900000,
+    "stock": 7
+  },
+  {
+    "id": 16,
+    "title": "Gaming Monitor 27 Inch 144Hz",
+    "code": "ELC-MN-016",
+    "category": "Electronics",
+    "brand": "ASUS",
+    "price": 3400000,
+    "stock": 11
+  },
+  {
+    "id": 17,
+    "title": "Denim Jacket Vintage",
+    "code": "APP-JK-017",
+    "category": "Apparel",
+    "brand": "Levi's",
+    "price": 1199000,
+    "stock": 15
+  },
+  {
+    "id": 18,
+    "title": "Smart Watch Series 8",
+    "code": "ELC-SW-018",
+    "category": "Electronics",
+    "brand": "Apple",
+    "price": 6499000,
+    "stock": 9
+  },
+  {
+    "id": 19,
+    "title": "Standing Desk Motorized",
+    "code": "FUR-DK-019",
+    "category": "Furniture",
+    "brand": "Oxa",
+    "price": 4200000,
+    "stock": 5
+  },
+  {
+    "id": 20,
+    "title": "Portable Bluetooth Speaker Go 3",
+    "code": "ELC-SP-020",
+    "category": "Electronics",
+    "brand": "JBL",
+    "price": 650000,
+    "stock": 50
+  },
+  {
+    "id": 21,
+    "title": "Sunscreens SPF 50+",
+    "code": "HBH-SS-021",
+    "category": "Health & Beauty",
+    "brand": "Anessa",
+    "price": 320000,
+    "stock": 75
+  },
+  {
+    "id": 22,
+    "title": "Leather Sneakers White",
+    "code": "APP-SH-022",
+    "category": "Apparel",
+    "brand": "Pedro",
+    "price": 1499000,
+    "stock": 13
+  },
+  {
+    "id": 23,
+    "title": "Ceramic Dinner Plate Set",
+    "code": "KIT-PL-023",
+    "category": "Kitchen",
+    "brand": "Zen",
+    "price": 350000,
+    "stock": 28
+  },
+  {
+    "id": 24,
+    "title": "Powerbank 20000mAh PD",
+    "code": "ELC-PB-024",
+    "category": "Electronics",
+    "brand": "Anker",
+    "price": 499000,
+    "stock": 42
+  },
+  {
+    "id": 25,
+    "title": "Minimalist Desk Lamp",
+    "code": "FUR-LP-025",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 199000,
+    "stock": 30
+  },
+  {
+    "id": 26,
+    "title": "Moisturizer Gel 50ml",
+    "code": "HBH-MZ-026",
+    "category": "Health & Beauty",
+    "brand": "The Originote",
+    "price": 480000,
+    "stock": 120
+  },
+  {
+    "id": 27,
+    "title": "Stainless Steel Chef Knife",
+    "code": "KIT-KN-027",
+    "category": "Kitchen",
+    "brand": "Zwilling",
+    "price": 950000,
+    "stock": 16
+  },
+  {
+    "id": 28,
+    "title": "Aviator Sunglasses",
+    "code": "ACC-SG-028",
+    "category": "Accessories",
+    "brand": "Ray-Ban",
+    "price": 2150000,
+    "stock": 10
+  },
+  {
+    "id": 29,
+    "title": "Yoga Mat Anti-Slip",
+    "code": "SPT-YM-029",
+    "category": "Sports",
+    "brand": "Lululemon",
+    "price": 980000,
+    "stock": 24
+  },
+  {
+    "id": 30,
+    "title": "Dumbbell Set 10kg",
+    "code": "SPT-DB-030",
+    "category": "Sports",
+    "brand": "Decathlon",
+    "price": 450000,
+    "stock": 19
+  }
+]

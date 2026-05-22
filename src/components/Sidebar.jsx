@@ -1,3 +1,4 @@
+import { AiOutlineCodeSandbox } from "react-icons/ai"; 
 import { FaUsers } from "react-icons/fa"; 
 import { AiOutlineShoppingCart } from "react-icons/ai"; 
 import { MdDashboard } from "react-icons/md"; 
@@ -37,6 +38,11 @@ export default function Sidebar() {
 	                  <li>
 	                    <NavLink to="/customers" id="menu-3" className={menuClass}>
                             <FaUsers  className="mr-4 text-xl"/>Customers
+                        </NavLink>
+	                  </li>
+                      <li>
+	                    <NavLink to="/products" id="menu-3" className={menuClass}>
+                            <AiOutlineCodeSandbox  className="mr-4 text-xl"/>Product
                         </NavLink>
 	                  </li>
                 </ul>
