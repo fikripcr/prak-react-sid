@@ -24,19 +24,6 @@ export default function Header() {
                     <FaBell />
                     <span id="notification-badge" className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 bg-blue-200 rounded-full px-2 py-1 text-xs">50</span>
                 </div>
-
-
-                {/* Profile Section */}
-                <div id="profile-container" className="flex items-center space-x-4 border-l pl-4 border-gray-300">
-                    <span id="profile-text">
-                        Hello, <b>Fikri Muhaffizh</b>
-                    </span>
-                    <img
-                        id="profile-avatar"
-                        src="https://avatar-placeholder.iran.liara.run/public/28"
-                        className="w-10 h-10 rounded-full"
-                    />
-                </div>
             </div>
         </div>
     );
