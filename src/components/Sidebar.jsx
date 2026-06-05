@@ -1,3 +1,4 @@
+import { AiFillAlert } from "react-icons/ai"; 
 import { AiOutlineCodeSandbox } from "react-icons/ai"; 
 import { FaUsers } from "react-icons/fa"; 
 import { AiOutlineShoppingCart } from "react-icons/ai"; 
@@ -59,7 +60,7 @@ export default function Sidebar() {
                     </li>
                     <li>
 	                    <NavLink id="menu-4" to="/fitur-xyz" className={menuClass}>
-                            <AiOutlineCodeSandbox  className="mr-4 text-xl"/>
+                            <AiFillAlert  className="mr-4 text-xl"/>
                             Fitur XYZ
                         </NavLink>
                     </li>
