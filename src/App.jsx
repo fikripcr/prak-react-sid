@@ -27,6 +27,8 @@ const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"));
 
 const Products = React.lazy(() => import("./pages/Products"));
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
+const FiturXyz = React.lazy(() => import("./pages/FiturXyz"));
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -39,6 +41,7 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/customers" element={<Customers />} />
+          <Route path="/fitur-xyz" element={<FiturXyz />} />
           
           <Route path="/products" element={<Products />} />
           <Route path="/products/:id" element={<ProductDetail />} /> 
