@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import "./assets/tailwind.css";
 import { Route, Routes } from "react-router-dom";
 import Loading from "./components/Loading";
+import Components from "./pages/Components";
 
 // import Dashboard from "./pages/Dashboard";
 // import Orders from "./pages/Orders";
@@ -41,6 +42,7 @@ function App() {
           
           <Route path="/products" element={<Products />} />
           <Route path="/products/:id" element={<ProductDetail />} /> 
+          <Route path="/components" element={<Components />} />
         </Route>
 
         <Route element={<AuthLayout />}>

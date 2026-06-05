@@ -2,11 +2,13 @@ import { AiOutlineCodeSandbox } from "react-icons/ai";
 import { FaUsers } from "react-icons/fa"; 
 import { AiOutlineShoppingCart } from "react-icons/ai"; 
 import { MdDashboard } from "react-icons/md"; 
-import { Link, NavLink } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom";
+
 
 export default function Sidebar() {
-    const menuClass = ({ isActive }) =>
+     const menuClass = ({ isActive }) =>
         `flex cursor-pointer items-center rounded-xl p-4  space-x-2
+
         ${isActive ? 
             "text-hijau bg-green-200 font-extrabold" : 
             "text-gray-600 hover:text-hijau hover:bg-green-200 hover:font-extrabold"
@@ -26,25 +28,36 @@ export default function Sidebar() {
             <div id="sidebar-menu" className="mt-10">
                 <ul id="menu-list" className="space-y-3">
                     <li>
-                        <NavLink to="/" id="menu-1" className={menuClass}>
-                            <MdDashboard  className="mr-4 text-xl"/>Dashboard
+	                    <NavLink id="menu-1" to="/" className={menuClass}>
+                            <MdDashboard  className="mr-4 text-xl"/>
+                            Dashboard
                         </NavLink>
-	                  </li>
+                    </li>
                     <li>
-	                    <NavLink to="/orders" id="menu-2" className={menuClass}>
-                            <AiOutlineShoppingCart  className="mr-4 text-xl"/>Orders
+	                    <NavLink id="menu-2" to="/orders" className={menuClass}>
+                            <AiOutlineShoppingCart  className="mr-4 text-xl"/>
+                            Orders
                         </NavLink>
-	                  </li>
-	                  <li>
-	                    <NavLink to="/customers" id="menu-3" className={menuClass}>
-                            <FaUsers  className="mr-4 text-xl"/>Customers
+                    </li>
+                    <li>
+	                    <NavLink id="menu-3" to="/customers" className={menuClass}>
+                            <FaUsers  className="mr-4 text-xl"/>
+                            Customers
                         </NavLink>
-	                  </li>
-                      <li>
-	                    <NavLink to="/products" id="menu-3" className={menuClass}>
-                            <AiOutlineCodeSandbox  className="mr-4 text-xl"/>Product
+                    </li>
+                    <li>
+	                    <NavLink id="menu-3" to="/products" className={menuClass}>
+                            <AiOutlineCodeSandbox  className="mr-4 text-xl"/>
+                            Products
                         </NavLink>
-	                  </li>
+                    </li>
+                    <li>
+	                    <NavLink id="menu-4" to="/components" className={menuClass}>
+                            <AiOutlineCodeSandbox  className="mr-4 text-xl"/>
+                            Components
+                        </NavLink>
+                    </li>
+                    
                 </ul>
             </div>
 
